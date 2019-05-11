@@ -1,0 +1,20 @@
+#-------------------------------------------------------------------------------------
+# configuration file for 
+# GROUP MESSAGE RUG Script
+#-------------------------------------------------------------------------------------
+# FEATURES: Detects when an avatar steps on the rug, checks for active
+# group, sends different message depending on whether group tag is 
+# active or not active.
+#-------------------------------------------------------------------------------------
+# do NOT change anything before the equal sign ( = ) below
+#-------------------------------------------------------------------------------------
+
+# the message to those wearing your group tag
+in group message = Checking to see if group tag is active... VERIFIED
+
+# the message to those NOT wearing your group tag
+not in group message = Join our update group  to set home here: secondlife:///app/group/9b82b383-f0ba-301b-4ea3-26fbaa11e471/about
+
+# set the floating text, leave blank for no floating text
+# floating text = Welcome!
+floating text = 
